@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>onlycat</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cat breed</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="scottish_fold.html" class="dropdown-item">Scottish fold</a>
+                        <a href="british_shorthair.html" class="dropdown-item">British Shorthair</a>
+                        <a href="persian.html" class="dropdown-item">Persian cat</a>
+                        <a href="american_shorthair.html" class="dropdown-item">American Shorthair</a>
+                        <a href="russian_blue.html" class="dropdown-item">russian blue</a>
+                        <a href="abyssinian_cat.html" class="dropdown-item">Abyssinian</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">CONTACT</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/scottish_fold.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h3 class="display-1 text-white mb-md-4 animated zoomIn"></h3>
+                            <a href="scottish_fold.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Scottish fold</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/british_shorthair.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"></h1>
+                            <a href="british_shorthair.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">British Shorthair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/persian.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"></h1>
+                            <a href="persian.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Persian Cat</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/american_shorthair.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"></h1>
+                            <a href="american_shorthair.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">American Shorthair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/russian_blue.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"></h1>
+                            <a href="russian_blue.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Russian blue</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/abyssinian.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h3 class="text-white text-uppercase mb-3 animated slideInDown"></h3>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn"></h1>
+                            <a href="abyssinian_cat.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Abyssinian Cat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title mb-4">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Cat is cute</h5>
+                        <h1 class="display-5 mb-0">Cat</h1>
+                    </div>
+                    <h4 class="text-body fst-italic mb-4">แมว (ชื่อวิทยาศาสตร์: Felis catus) เป็นสปีชีส์สัตว์เลี้ยงของสัตว์เลี้ยงลูกด้วยนมกินเนื้อขนาดเล็ก โดยเป็นแมวสปีชีส์เดียวในวงศ์ Felidae ที่ถูกปรับเป็นสัตว์เลี้ยง และมักเรียกเป็น แมวบ้าน เพื่อแยกมันจากสมาชิกที่อยู่ในป่า แมวเหล่านี้สามารถอาศัยเป็นแมวบ้าน, แมวฟาร์ม หรือแมวจรได้ แต่แมวประเภทหลังสุดมักอาศัยอยู่อย่างอิสระและหลีกเลี่ยงการติดต่อกับมนุษย์ มนุษย์ให้ค่ากับแมวบ้านในฐานะคู่หูและความสามารถในการฆ่าสัตว์ฟันแทะ สำนักจดทะเบียนแมว (cat registries) หลายแห่งยอมรับสายพันธุ์แมวประมาณ 60 สายพันธุ์</h4>
+                    <h5 class="mb-4">การจัดจำแนก</h5>
+                    <p class="mb-3">โดยทั่วไปมีการแบ่งพันธุ์แมวออกเป็น 2 ลักษณะใหญ่ ๆ คือ แมวขนยาว (longhaired cat) และ แมวขนสั้น (shorthaired cats) การแบ่งพันธุ์ด้วยวิธีนี้ทำให้จำแนกแมวออกได้ตามลักษณะพันธุ์ที่จำเพาะต่าง ๆ กัน การจัดจำแนกแมวในยุโรปและสหรัฐอเมริกามีการกำหนดมาตรฐานของพันธุ์แมวที่เป็นที่ยอมรับกัน ทั้งนี้ลักษณะมาตรฐานของพันธุ์ก็มีการเปลี่ยนแปลงอยู่บ่อย ๆ การใช้ชื่อเรียกพันธุ์แมวที่แสดงถึงลักษณะของพันธุ์ที่จำเพาะมีความแตกต่างกันระหว่างในยุโรปและสหรัฐอเมริกา และมีบางพันธุ์มีการจัดจำแนกเฉพาะต่างหากในสหรัฐอเมริกาเท่านั้น
+
+                        แมวในโลกนี้มีมากมายหลายพันธุ์ โดยเฉพาะแมวที่เป็นสัตว์เลี้ยงไม่นับรวมสัตว์ตระกูลแมว พวกเสือ แมวดาว แมวป่า หรือสิงโต แมวเลี้ยงหรือที่เราเรียกว่า Domestic cat นั้นมีวิวัฒนาการมาจากแมวป่าในธรรมชาติจากหลายภูมิภาคของโลก ชื่อเรียกพันธุ์แมวที่แตกต่างกันที่เรียกกันทุกวันนี้ เช่น เปอร์เซีย แมวสยาม แมวบาหลี แมวอะบิสซิเนีย และแมวโซมาลี นั้น แสดงถึงถิ่นกำเนิดที่แสดงถึงภูมิศาสตร์ที่เขาถือกำเนิดมา ในการจัดนิทรรศการที่ยิ่งใหญ่ที่สุดในประเทศอังกฤษเมื่อปีคริสศักราช 1871 ถือเป็นการเริ่มต้นในการนำเสนอพันธุ์แมวในระดับนานาชาติ ทำให้ผู้สนใจในแมวมีความตื่นตัว แต่การแสดงในครั้งนั้นส่วนใหญ่เป็นแมวเปอร์เซียและแมวขนสั้นเป็นหลัก</p>
+                    <h5 class="mb-4">ในเชิงสิ่งแวดล้อม</h5>
+                    <p class="mb-3">จากการศึกษาของนักวิทยาศาสตร์แห่งสถาบันสมิธโซเนียนพบว่า แมวเป็นสัตว์ที่เป็นภัยคุกคามต่อสัตว์หรือสิ่งมีชีวิตเล็ก ๆ อย่างยิ่ง โดยในสหรัฐอเมริกาแมวได้ฆ่านกไปถึงปีละ 2,000–4,000 ล้านตัวต่อปี ทั้งแมวที่มีเจ้าของ หรือแมวจร ส่วนในออสเตรเลียปีละ 70 ล้านตัวต่อปี และอังกฤษ 27 ล้านตัวต่อปี รวมแล้วทั่วโลกประมาณ 7,000–20,000 ล้านตัวต่อปี โดยในรอบ 500 ปีที่ผ่านมา แมวได้ทำให้สัตว์ชนิดต่าง ๆ ทั้ง นก, สัตว์ปีก, สัตว์เลี้ยงลูกด้วยนมขนาดเล็ก, สัตว์ฟันแทะ, สัตว์เลื้อยคลานหรือสัตว์สะเทินน้ำสะเทินบกสูญพันธุ์ไปแล้วถึง 430 ชนิด เนื่องจากแมวเป็นสัตว์ที่มีสัญชาตญาณนักล่า บางทีล่าหรือฆ่าเพราะความอยากรู้อยากเห็นไม่ได้นำมากินหรือเป็นอาหาร</p>
+                    <h5 class="mb-4">แมวนานาพันธุ์</h5>
+                    <p class="mb-3">ปัจจุบันมีแมวพันธุ์ต่าง ๆ มากกว่า 30 พันธุ์ทั่วโลก แม้ว่ามนุษย์เพิ่งเริ่มผสมพันธุ์แมวเพื่อเลือกลักษณะเด่นเมื่อเพียงร้อยกว่าปีมานี้เท่านั้น แมวแต่ละพันธุ์มีลักษณะต่างกันมากทั้งสีและความยาวขน ในขณะที่แมวพันธุ์เม็กซิกันมีรูปร่างเปลือยเปล่าแทบไม่มีขน แมวเพอร์เซียกลับมีขนฟูฟ่อง</p>
+                    <h5 class="mb-4">ต้นกำเนิด</h5>
+                    <p class="mb-3">เชื่อว่าแมวบ้านสืบเชื้อสายมาจากแมวป่าอาฟริกา (African Wildcat-- Felis silvestris silvestris) ส่วนแมวป่า (Felis chaus) ที่มีอยู่ในเมืองไทย หรือแมวพอลลาส (Felis manul) พบว่าไม่มีความใกล้ชิดทางพันธุกรรมกับแมวบ้านแต่อย่างใด อียิปต์คือชาติแรกที่นำแมวมาเป็นสัตว์เลี้ยงเมื่อ 4,000 ปีมาแล้ว แมวในยุคนั้นถือว่าเป็นสัตว์ศักดิ์สิทธิ์เคียงคู่กับศาสนาเลยทีเดียว เช่นเดียวกับวัวที่ถือเป็นสัตว์ศักดิ์สิทธิ์ของชาวฮินดู</p>
+                    <h5 class="mb-4">อุปนิสัย</h5>
+                    <p class="mb-3">แมวบ้านเป็นสัตว์หากินกลางคืนเป็นส่วนใหญ่ แมวบ้านอาจดูเหมือนกับเป็นสัตว์ที่นอนตลอดทั้งวัน แต่ความเป็นจริงแมวจะหลับ ๆ ตื่น ๆ เป็นช่วงเวลาสั้น ๆ สลับกัน มันตื่นขึ้นมาเพื่อจะสำรวจเสียงหรือสิ่งแปลกปลอมรอบตัว หากไม่มีอะไรน่าสนใจก็จะหลับต่อ แม้ในขณะที่หลับหูของแมวก็ไม่เคยหยุดนิ่ง แต่จะพลิกหันไปหันมาอยู่เสมอเพื่อดักฟังเสียงแปลกปลอมเช่นเสียงความถี่สูงซึ่งอาจจะเป็นเสียงของเหยื่อ หูของแมวสามารถฟังเสียงความถี่สูงกว่าที่มนุษย์ได้ยินมาก
+
+                        ผู้ที่เลี้ยงแมวบ้านอาจเคยสังเกตว่าแมวชอบที่จะถูและกลิ้งเกลือกตัวกับสิ่งของหรือพื้นที่มีกลิ่นแรง แล้วกลิ่นนั้นก็จะติดกับตัวแมวบ้านไปด้วย พฤติกรรมเช่นนี้เชื่อว่าเป็นสัญชาติญาณที่ติดมาจากธรรมชาติ เพราะกลิ่นภายนอกจะกลบกลิ่นของตัวเอง ซึ่งทำให้เป็นประโยชน์ในการล่าเหยื่อ แม้ว่าแมวบ้านไม่จำเป็นต้องหาอาหารเองเพราะมีคนให้อาหาร แต่ไม่ได้หมายความว่าแมวจะล่าเหยื่อเองไม่ได้ แมวยังล่าสัตว์รอบ ๆ บ้านหลายชนิด เช่น หนู กระรอก ตุ่น หนูผี กระต่าย ค้างคาว รวมถึงนกอีกหลายชนิดเช่น นกกระจอก นกกิ้งโครง นกกางเขน นกพิราบ ไก่ นกกระทา หรืออาจจะกินแมลง และ ปลา ด้วยก็ได้ บางครั้งแมวอาจกินหญ้าหรือพืชใบเขียวบางชนิด พฤติกรรมที่แมวกินพืชเชื่อว่าอาจเป็นความต้องการแร่ธาตุหรือวิตามินบางชนิดที่ไม่มีอยู่ในอาหารปกติของมัน
+                        
+                        แมวอาจกลืนขนจากลำตัวของมันเองเข้าไปในกระเพาะจนขนรวมกันเป็นก้อนอยู่ในกระเพาะ สิ่งนี้อาจเป็นเจตนาของมันเองเพื่อให้ก้อนขนเข้าไปบุหรือป้องกันกระเพาะจากเศษกระดูกอันแหลมคมจากสารพัดเหยื่อที่มันกินเข้าไป
+                        
+                        แมวบ้านเป็นสัตว์ที่อยู่โดยลำพังเป็นส่วนใหญ่ แต่แมวก็มีสังคมในหมู่แมวที่อยู่ในท้องที่เดียวกัน แมวแต่ละตัวมีการจัดลำดับชนชั้นในสังคมแมว ในสถานที่ ๆ มีอาหารหรือเหยื่อให้กินมาก แมวอาจรวมตัวกันเป็นชุมชนแมวขนาดใหญ่และมีสัมพันธ์ที่ดีถ้อยทีถ้อยอาศัยต่อกัน แมวในสังคมหนึ่งจะรู้จักมักคุ้นกันโดยมักอาศัยการจำแนกกลิ่น เช่นกลิ่นของปัสสาวะ หรือกลิ่นจากต่อมกลิ่นที่แมวถูกเข้ากับสิ่งของต่าง ๆ</p>
+                    <h5 class="mb-4">ชีววิทยา</h5>
+                    <p class="mb-3">เมื่อตัวเมียพร้อมที่จะผสมพันธุ์ มันจะปล่อยกลิ่นและส่งเสียงร้องบ่งบอกถึงภาวะเป็นสัดของมัน ในช่วงนี้มันจะยอมให้ตัวผู้เข้าใกล้เพื่อผสมพันธุ์ได้ แมวตัวผู้ที่คุ้นเคยจะเข้ามาผสมพันธุ์ได้ทันที แต่สำหรับแมวตัวผู้ต่างถิ่นตอนแรกจะถูกขับไล่ออกไม่ให้เข้าใกล้ได้ง่ายดายนัก มันจะต้องตาม "ตื๊อ" อยู่สักพักตัวเมียจึงยอมให้เข้าใกล้ได้
+
+                        แมวตัวเมียจะเป็นสัดปีละประมาณ 3-4 ครั้ง แต่ละครั้งจะยาวนานประมาณ 3 วัน แต่ถ้าในช่วงวันแรก ๆ ที่ติดสัดไม่ได้ผสมพันธุ์ ระยะเวลาการติดสัดก็อาจจะยาวนานกว่านี้ ตัวเมียตั้งท้องนานประมาณ 63-66 วัน ออกลูกปีละประมาณ 2 ครอก มีลูกรวมกัน 1-8 ตัว แต่ส่วนใหญ่จะประมาณ 3-5 ตัว แม่แมวจะออกลูกตามโพรงไม้ โคนต้นไม้ กองหลืบหิน พุ่มทึบ ลัง หรือแม้แต่กล่องกระดาษ โดยแมวชอบออกลูกในสถานที่เงียบๆปลอดภัย และไม่ถูกรบกวน
+                        
+                        ลูกแมวแรกเกิดหนักประมาณ 85-110 กรัม ตาจะเปิดได้ภายในเวลา 7-20 วัน และเริ่มเดินได้เมื่ออายุ 9 ถึง 15 วัน ลูกแมวเริ่มกินอาหารแข็งได้เมื่ออายุ 4 สัปดาห์และหย่านมเมื่ออายุ 8-10 สัปดาห์ พออายุได้ 6 เดือนก็สามารถแยกจากแม่และหากินเองได้แล้ว เมื่อแมวหนุ่มสาวมีอายุได้ 10-12 เดือน ก็จะเข้าสู่วัยเจริญพันธุ์ พร้อมที่จะผสมพันธุ์และให้กำเนิดลูกรุ่นต่อไป</p>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 0px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Tab</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Cat breed</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="scottish_fold.html"><i class="bi bi-arrow-right text-primary me-2"></i>Scottish fold</a>
+                        <a class="text-light mb-2" href="british_shorthair.html"><i class="bi bi-arrow-right text-primary me-2"></i>British Shorthair</a>
+                        <a class="text-light mb-2" href="persian.html"><i class="bi bi-arrow-right text-primary me-2"></i>Persian cat</a>
+                        <a class="text-light mb-2" href="american_shorthair.html"><i class="bi bi-arrow-right text-primary me-2"></i>American Shorthair</a>
+                        <a class="text-light mb-2" href="russian_blue.html"><i class="bi bi-arrow-right text-primary me-2"></i>Russian Blue</a>
+                        <a class="text-light" href="abyssinian_cat.html"><i class="bi bi-arrow-right text-primary me-2"></i>Abyssinian</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://www.facebook.com/profile.php?id=100090551141959&mibextid=ZbWKwL"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="https://instagram.com/catiscutesomuch?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://twitter.com/catiscutesomuch?t=Zz1sn4ThMu4vgSJdU5-BQA&s=09"><i class="fab fa-twitter fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
